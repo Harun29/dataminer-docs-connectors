@@ -10,12 +10,12 @@ The Synamedia Virtual DCM is a device that represents virtualized and software-b
 
 ### Version Info
 
-| Range                | Key Features                                                                                                                       | Based on     | System Impact     |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------|--------------|-------------------|
-| 1.0.0.x              | Initial version: SRT and Zixi reads and writes.                                                                                    | -            | -                 |
-| 1.0.1.x [SLC Main]   | Changed layout. Added Alarms Table.                                                                                                | 1.0.0.3      | -                 |
-| 1.0.2.x              | Changed protocol option to Unicode.                                                                                                | 1.0.1.35     | -                 |
-| 1.0.3.x              | Updated primary keys of Input/Output-related tables to ensure stable trending and data integrity.                                  | 1.0.2.X      | Existing data, alarms, and trends may no longer be linked to new primary keys. |
+| Range                | Key Features                                    | Based on     | System Impact     |
+|----------------------|-------------------------------------------------|--------------|-------------------|
+| 1.0.0.x              | Initial version: SRT and Zixi reads and writes. | -            | -                 |
+| 1.0.1.x [SLC Main]   | Changed layout. Added Alarms Table.             | 1.0.0.3      | -                 |
+| 1.0.2.x              | Changed protocol option to unicode.             | 1.0.1.35     | -                 |
+| 1.0.3.x              | Updated primary keys of Input/Output-related tables to ensure stable trending and data integrity. | 1.0.2.10 | Existing data, alarms, and trends may no longer be linked to new primary keys. |
 
 ### Product Info
 
